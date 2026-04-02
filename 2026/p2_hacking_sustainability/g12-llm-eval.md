@@ -2,7 +2,7 @@
 author: "Fedor Baryshnikov, Yuting Dong, Yuchen Sun, Tobias Veselka, Tom Clark"
 title: "Energy-efficient programming AI"
 image: "img/g12_template/cover.png"
-summary: "We want to make an LLM program that is capable of running a large number of models. We will study our models in terms of energy efficiency. We will focus on a subset of math tasks. Based on this, we will make a program that studies an input prompt and assigns the most efficient LLM for the specific use case."
+summary: "Many programmers use AI tools in their workflow, but often use computationally and thus energy intensive models for simple tasks, wasting energy. Our tool is an LLM interface that programmers can use for their needs - it is similar to existing solutions meaning it is easy to get used to, but uses a novel Planner-Worker approach to save energy with every query. The user not only saves energy, but is also informed of how much energy they saved, making them aware of their impact on the environment when using LLMs. Our tool also re-formulates their queries to make re-prompting, which wastes energy, nessessary less often"
 paper: "../papers/g12_energy_efficient_llm.pdf"
 source: "https://github.com/Fedor-Baryshnikov/SustSE-P2"
 group_number: 12
